@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Currículum Vitae - Jordan Manuel Pilliza Chiguano</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Iconos -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+
+  <!-- Tus estilos -->
+  <link rel="stylesheet" href="estilosvitae.css" />
+</head>
+<body class="bg-light">
+  <!-- Barra superior -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <span class="navbar-brand">Currículum Vitae</span>
+    </div>
+  </nav>
+
+  <!-- Contenido -->
+  <main class="container my-4">
+    <div class="row g-4">
+      <aside class="col-12 col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <img src="img/fotoperfil.jpg"
+                 class="rounded-circle mb-3" alt="Foto de perfil" width="200" height="280" />
+            <h1 class="h4 mb-1">Jordan Manuel Pilliza Chiguano</h1>    
+            <p class="text-muted mb-3">Estudiante de Diseño Multimedia</p>
+            <hr>
+            <h2 class="h6 text-uppercase text-muted">Contacto</h2>
+            <ul class="list-unstyled small mb-0 text-start">
+              <li><i class="bi bi-geo-alt"></i> Quito, Ecuador</li>
+              <li><i class="bi bi-envelope"></i> jordanpilliza.510@gmail.com</li>
+              <li><i class="bi bi-telephone"></i> +593 9 7909 7914</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card shadow-sm mt-4">
+          <div class="card-body">
+            <h2 class="h6 text-uppercase text-muted">Habilidades</h2>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">Bootstrap</span>
+              <span class="badge text-bg-primary">Figma</span>
+              <span class="badge text-bg-primary">Illustrator</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card shadow-sm mt-4">
+          <div class="card-body">
+            <h2 class="h6 text-uppercase text-muted">Idiomas</h2>
+            <ul class="list-unstyled small mb-0">
+              <li>Español — Nativo</li>
+              <li>Inglés — Intermedio (B1)</li>
+              <li>Alemán — Básico (A2)</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <section class="col-12 col-lg-8">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h2 class="h5">Sobre mí</h2>
+            <p>Soy estudiante de Diseño Multimedia con interés en interfaces simples y accesibles. Me gusta producir recursos multimedia que llamen la atención.</p>
+          </div>
+        </div>
+
+        <div class="card shadow-sm mt-4">
+          <div class="card-body">
+            <h2 class="h5">Experiencia</h2>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <strong>Diseñador Multimedia (Prácticas)</strong>
+                <span class="text-muted small">2024 – 2025</span>
+              </div>
+              <div class="text-muted small mb-1">EPMMOP</div>
+              <ul class="small mb-0">
+                <li>Producción de contenido visual para el DMQ</li>
+              </ul>
+              <div class="text-muted small mb-1">Diseños Impresos</div>
+              <ul class="small mb-0">
+                <li>Tarjetas de presentación</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card shadow-sm mt-4">
+          <div class="card-body">
+            <h2 class="h5">Educación</h2>
+            <div class="mb-2">
+              <div class="d-flex justify-content-between">
+                <strong>Universidad Politécnica Salesiana</strong>
+                <span class="text-muted small">2021 – Presente</span>
+              </div>
+              <div class="text-muted small">Diseño Multimedia</div>
+              <div class="d-flex justify-content-between">
+                <strong>Unidad Edcativa Municipal Fernández Madrid</strong>
+                <span class="text-muted small">2015 – 2021</span>
+              </div>
+              <div class="text-muted small">Bachiller en Ciencias</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="d-flex gap-2 mt-4">
+          <button class="btn btn-success" onclick="imprimirCV()">
+            <i class="bi bi-printer"></i> Imprimir / Guardar PDF
+          </button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="py-4 bg-dark text-white-50">
+    <div class="container text-center small">
+      © 2025 Tu Nombre — Hecho con Bootstrap
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Tu JavaScript -->
+  <script src="funcionesvitae.js"></script>
+</body>
+</html>

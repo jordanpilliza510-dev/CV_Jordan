@@ -1,0 +1,49 @@
+/* Colores basados en tu moodboard del agua */
+:root {
+  --color-principal: #5094CB;
+  --color-secundario: #1E374B;
+  --color-acento: #3C6F98;
+}
+
+/* General */
+body {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Encabezado */
+.navbar {
+  background-color: var(--color-secundario) !important;
+}
+
+/* Títulos */
+h1, h2, h5 {
+  color: var(--color-secundario);
+}
+
+/* Tarjetas */
+.card {
+  border: none;
+  border-left: 5px solid var(--color-principal);
+}
+
+/* Badges */
+.badge {
+  background-color: var(--color-principal) !important;
+}
+
+/* Botones */
+.btn-success {
+  background-color: var(--color-acento);
+  border-color: var(--color-acento);
+}
+
+.btn-success:hover {
+  background-color: var(--color-principal);
+  border-color: var(--color-principal);
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-secundario);
+}
